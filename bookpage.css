@@ -1,0 +1,79 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("main_picture.jpg");
+  background-size: cover;
+  height: 100vh;
+  margin-top: -20px;
+}
+
+.title {
+    margin-top: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center; 
+  
+}
+.title h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-family:'Indie Flower';
+    font-size: 3rem;
+    white-space: nowrap;
+}
+.titleh2 {
+  font-size: 2rem;
+}
+.title p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
+.center {
+    text-align: center;
+    
+}
+
+.pagination {
+    display: inline-block;
+
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+}
+
+
+.caligraphy {
+     font-family:'Indie Flower';
+}
